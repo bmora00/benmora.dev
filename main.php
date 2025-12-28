@@ -195,8 +195,8 @@ $description = 'Everything you need to know about the contempory software develo
         <div class="navbar-container">
             <nav class="navbar-menu nav-items">
                 <a class="navbar-menu-link" href="<?= $homeUrl ?>">Home</a>
-                <a class="navbar-menu-link" href="/benistyping/projects.php">Projects</a>
-                <a class="navbar-menu-link" href="/benistyping/resume.php">Contact</a>
+                <!-- <a class="navbar-menu-link" href="/benistyping/projects.php">Projects</a> -->
+                <a class="navbar-menu-link" href="/benistyping/resume.php">More_Stuff</a>
             </nav>
             <nav class="navbar-menu social">
                 <a class="social-icon navbar-icon" href="https://github.com/bmora00" target="_blank" aria-label="github">
@@ -219,7 +219,7 @@ $description = 'Everything you need to know about the contempory software develo
                 </a>
                 <a class="social-icon navbar-icon" href="https://linkedin.com/in/bmora00" target="_blank" aria-label="linkedin">
                     <span class="social-container">
-                        <svg role="img" aria-label="bsky.app social icon" class="social-svg" viewBox="0 0 16 16">
+                        <svg role="img" aria-label="LinkedIn social icon" class="social-svg" viewBox="0 0 16 16">
                             <g class="social-svg-icon">
                                 <path class="svg-icon" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146
                                     H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212
@@ -227,6 +227,16 @@ $description = 'Everything you need to know about the contempory software develo
                                     zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634
                                     v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4
                                     c.03.678 0 7.225 0 7.225z"
+                                ></path>
+                            </g>
+                        </svg>
+                    </span>
+                </a>
+                <a class="social-icon navbar-icon" href="https://linkedin.com/in/bmora00" target="_blank" aria-label="linkedin">
+                    <span class="social-container">
+                        <svg role="img" aria-label="LinkedIn social icon" class="social-svg" viewBox="0 0 65 78">
+                            <g class="social-svg-icon">
+                                <path class="svg-icon" d='M53.7692 27.2093H46.4729V4.53488C46.4729 2.0407 44.4079 0 41.884 0H23.5286C21.0047 0 18.9397 2.0407 18.9397 4.53488V27.2093H11.6434C7.55931 27.2093 5.49432 32.107 8.3853 34.9639L29.4482 55.7791C31.2379 57.5477 34.1289 57.5477 35.9185 55.7791L56.9814 34.9639C59.8724 32.107 57.8533 27.2093 53.7692 27.2093ZM0.584229 72.5581C0.584229 75.0523 2.64922 77.093 5.1731 77.093H60.2395C62.7634 77.093 64.8284 75.0523 64.8284 72.5581C64.8284 70.0639 62.7634 68.0232 60.2395 68.0232H5.1731C2.64922 68.0232 0.584229 70.0639 0.584229 72.5581Z'
                                 ></path>
                             </g>
                         </svg>
@@ -246,9 +256,9 @@ $description = 'Everything you need to know about the contempory software develo
                 <div class="landing-title">
                     <!-- <span id=name>Ben Mora</span> -->
                     <span id=tagline>
-                        Coding <br/>
-                        with <br/>
-                        Care
+                        Something <br/>
+                        Something <br/>
+                        Something 
                     </span>
                 </div>
                 <div class="landing-text">
@@ -299,18 +309,23 @@ $description = 'Everything you need to know about the contempory software develo
                     </div>
                 </div>
             </div>
-            <div class="projects-container">
+            <!-- <div class="projects-container">
                 <div class="projects-content main-content">
                     <h2>Projects</h2>
+                    <div class="projects-content-goes-here">
+                        <img class="projects-content-goes-here-img" src="/benmoradev/placeholder.svg" alt="Placeholder Image">
+                    </div>
                     <span class="under-construction-banner">
                         <p class="under-construction-text">Under Construction</p>
                     </span>
                 </div>
-            </div>
-            <div class="contact-container">
-                <div class="contact-content main-content">
-                    <h2>Contact Me</h2>
-                    <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:bmora00@hotmail.com"></a>
+            </div> -->
+            <div class="contact-wrapper">
+                <div class="contact-container">
+                    <div class="contact-content main-content">
+                        <h2>Contact Me</h2>
+                        <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:bmora00@hotmail.com"></a>
+                    </div>
                 </div>
             </div>
         </main>
