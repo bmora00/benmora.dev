@@ -31,6 +31,19 @@ img {
     display: block;
 }
 
+h2 {
+    font-family: 'garet-heavy', sans-serif;
+    font-size: 3rem;
+}
+
+:is(.navbar-menu a):hover {
+    background-color: var(--color-neutral-two) !important;
+}
+
+:is(.navbar-title):hover {
+    background-color: var(--color-neutral-two) !important;
+}
+
 :root {
     --color-font-one: #e5e7eb;
     --color-neutral-one: #2B2A33;
@@ -83,6 +96,10 @@ img {
     width: 100%;
 } */
 
+.active:is(.navbar-menu a) {
+    background: var(--color-neutral-three);
+}
+
 .block-container {
     display: flex;
     justify-content: center;
@@ -91,12 +108,18 @@ img {
 .contact-container {
     background-image: url(/benmoradev/bright_stars_0C0C0D.png);
     display: flex;
-    max-width: var(--main-content-width);
+    min-width: var(--main-content-width);
     justify-content: center;
 }
 
 .contact-content {
     background-color: var(--color-neutral-three);
+}
+
+.contact-link {
+    color: var(--color-font-one);
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 
 .contact-wrapper {
@@ -150,7 +173,8 @@ img {
 
 .main-wrapper {
     align-items: center;
-    background-color: var(--color-neutral-two);
+    background-color: var(--color-neutral-three);
+    background-image: url(/benmoradev/src/images/home-left.svg);
     /* background-image: url(/benmoradev/background-sprite.png); */
     /* background-repeat: repeat;
     background-size: 8px; */
@@ -173,7 +197,7 @@ img {
 }
 
 .main-content {
-    margin-bottom: 21rem;
+    margin-bottom: 8rem;
     margin-top: 8rem;
 }
 
@@ -212,7 +236,7 @@ img {
 .navbar-icon {
     height: 40px;
     width: 40px;
-    padding: 8px;
+    padding: .5rem !important;
 }
 
 .navbar-menu {
@@ -224,7 +248,9 @@ img {
 
 .navbar-menu a {
     text-decoration: none;
+    border-radius: 15px;
     color: var(--color-font-one);
+    padding: .5rem .75rem;
 }
 
 .navbar-menu-link {
