@@ -1,17 +1,33 @@
 @font-face {
     font-family: 'garet';
-    src: url('/benmoradev/src/fonts/Garet-Book.otf') format('opentype'),
-         url('/benmoradev/src/fonts/Garet-Book.woff2') format('woff2'),
-         url('/benmoradev/src/fonts/Garet-Book.woff') format('woff'),
-         url('/benmoradev/src/fonts/Garet-Book.ttf') format('truetype');
+    src: url('/benmoradev/src/fonts/Garet/Garet-Book.otf') format('opentype'),
+         url('/benmoradev/src/fonts/Garet/Garet-Book.woff2') format('woff2'),
+         url('/benmoradev/src/fonts/Garet/Garet-Book.woff') format('woff'),
+         url('/benmoradev/src/fonts/Garet/Garet-Book.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'garet-heavy';
-    src: url('/benmoradev/src/fonts/Garet-Heavy.otf') format('opentype'),
-         url('/benmoradev/src/fonts/Garet-Heavy.woff2') format('woff2'),
-         url('/benmoradev/src/fonts/Garet-Heavy.woff') format('woff'),
-         url('/benmoradev/src/fonts/Garet-Heavy.ttf') format('truetype');
+    src: url('/benmoradev/src/fonts/Garet/Garet-Heavy.otf') format('opentype'),
+         url('/benmoradev/src/fonts/Garet/Garet-Heavy.woff2') format('woff2'),
+         url('/benmoradev/src/fonts/Garet/Garet-Heavy.woff') format('woff'),
+         url('/benmoradev/src/fonts/Garet/Garet-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'jetbrainsmono';
+    src: url('/benmoradev/src/fonts/JetBrainsMono/JetBrainsMono-Medium.woff2') format('woff2'),
+         url('/benmoradev/src/fonts/JetBrainsMono/JetBrainsMono-Medium.ttf') format('truetype');
+    font-style: normal;
+        
+}
+
+@font-face {
+    font-family: 'jetbrainsmono';
+    src: url('/benmoradev/src/fonts/JetBrainsMono/JetBrainsMono-MediumItalic.woff2') format('woff2'),
+         url('/benmoradev/src/fonts/JetBrainsMono/JetBrainsMono-MediumItalic.ttf') format('truetype');
+    font-style: italic;
+        
 }
 
 
@@ -55,6 +71,7 @@ h2 {
     --font-family: "garet","Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     --footer-height: 40px;
 
+    background-color: black;
     color: var(--color-font-one);
     font-family: var(--font-family);
     font-size: 16px;
@@ -174,7 +191,7 @@ h2 {
 .main-wrapper {
     align-items: center;
     background-color: var(--color-neutral-three);
-    background-image: url(/benmoradev/src/images/home-left.svg);
+    /* background-image: url(/benmoradev/src/images/home-left.svg); */
     /* background-image: url(/benmoradev/background-sprite.png); */
     /* background-repeat: repeat;
     background-size: 8px; */
