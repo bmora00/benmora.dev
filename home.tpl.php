@@ -13,7 +13,7 @@
                 </span>
             </div> -->
             <div class="landing-text">
-                <p> Running benmora.dev v1.0.0 </p>
+                <p class="landing-version-text"> Running <u>v1.0.0</u> </p>
                 <p>
                     Welcome to my site. This is where I put hobby projects and stuff I have completed. So far I have only made this website :D. 
                     
@@ -65,7 +65,7 @@
                     <h2 id="about-me">About Me</h2>
                     <p>
                         <img class="about-image" src="/benmoradev/ben-pic-2.jpg" alt="Picture of Ben Mora">
-                        Hi :wave emoji: I'm Ben, a 26-year old developer and coding enthusist. 
+                        Hi &#128075 I'm Ben, a 26-year old developer and coding enthusist. 
                     </p>
                     <p>
                         I wrote my first program in 2018, Graduated from Texas A&M Universisity in 2021, and have been working professionally as a 
@@ -98,9 +98,9 @@
             <div class="contact-container main-content">
                 <div class="contact-content">
                     <h2>Contact</h2>
-                    <p>Please reach out to me. I want to talk to you</p>
+                    <p>My closest friends use these channels to talk to me.</p>
                     <p class="contact-link"><a href="mailto:bmora00@hotmail.com">bmora00@hotmail.com</a></p>
-                    <p class="contact-link">LinkedIn: @bmora00</p>
+                    <p class="contact-link">LinkedIn: <a href="https://www.linkedin.com/in/bmora00">@bmora00</a></p>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 <?php
+$currentPage = 'more_stuff';
 $websiteUrl  = 'http://localhost/benmoradev';
 $logoUrl  = '/benmoradev/icons/mouse-sprite-rough.png';
 $homeUrl = '/benmoradev/home.php';

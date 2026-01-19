@@ -1,4 +1,5 @@
 <?php
+$currentPage = 'home';
 $websiteUrl  = 'http://localhost/benmoradev';
 $logoUrl  = '/benmoradev/icons/mouse-sprite-rough.png';
 $homeUrl = '/benmoradev/home.php';

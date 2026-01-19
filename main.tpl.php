@@ -187,9 +187,9 @@
         </div>
         <div class="navbar-container">
             <nav class="navbar-menu nav-items">
-                <a class="active navbar-menu-link" href="<?= $homeUrl ?>">Home</a>
+                <a class="<?php echo $currentPage === 'home' ? 'active' : ''; ?> navbar-menu-link" href="<?= $homeUrl ?>">Home</a>
                 <!-- <a class="navbar-menu-link" href="/benistyping/projects.php">Projects</a> -->
-                <a class="navbar-menu-link" href="/benmoradev/more_stuff.php">More_Stuff</a>
+                <a class="<?php echo $currentPage === 'more_stuff' ? 'active' : ''; ?> navbar-menu-link" href="/benmoradev/more_stuff.php">More_Stuff</a>
             </nav>
             <nav class="navbar-menu social">
                 <a class="social-icon navbar-icon" href="https://github.com/bmora00" target="_blank" aria-label="github">
@@ -248,7 +248,7 @@
     <?php include $tpl ?>
 
     <div class="footer">
-        <p class="footer-text">© benmora.dev, since 2025 ( ˘͈ ᵕ ˘͈♡)</p>
+        <p class="footer-text">© benmora.dev, since 2025&nbsp;&nbsp;&nbsp;ʕ´•ᴥ•`ʔ</p>
     </div>
 </body>
 </html>
