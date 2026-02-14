@@ -1,10 +1,10 @@
 <?php
-$currentPage = 'more_stuff';
+$currentPage = 'home';
 $websiteUrl  = 'http://localhost/benmoradev';
 $logoUrl  = '/benmoradev/icons/mouse-sprite-rough.png';
 $homeUrl = '/benmoradev/home.php';
-$title = 'Ben&#x27;s Website';
+$title = 'Home';
 $description = 'Everything you need to know about the contempory software developer, Ben Mora.';
-$tpl = 'more_stuff.tpl.php';
+$tpl = 'home.tpl.php';
 include 'main.tpl.php';
 ?>

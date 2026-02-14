@@ -13,7 +13,7 @@
     <meta name="twitter:title" content="<?= $title ?>" />
     <meta name="twitter:description" content="<?= $description ?>" />
     <meta data-react-helmet="true" name="twitter:image" content="<?= $logoUrl ?>" />
-    <title>About Me | <?= $title ?></title>
+    <title>Ben's Website | <?= $title ?></title>
     <link rel="icon" type="image/png" href="<?= $logoUrl ?>" />
     <link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous" />
     <link rel="apple-touch-icon" sizes="48x48" href="<?= $logoUrl ?>" />
@@ -30,7 +30,7 @@
     <div class="navbar">
         <div class="navbar-title">
            <div class="navbar-title-content">
-                <a href="<?= $homeUrl ?>" class="navbar-title-link">
+                <a href="/benmoradev/home.php" class="navbar-title-link">
                     <span class="navbar-title-text">
                         <!--viewBox="0 0 184 47"--> 
                         <svg class="ben-mora-dev-svg" role="img" viewBox="12 102 184 47" xmlns="http://www.w3.org/2000/svg" aria-label="benmora.dev logo">
@@ -186,8 +186,11 @@
             </div>
         </div>
         <div class="navbar-container">
+            <button class="navbar-hamburger-button" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </button>
             <nav class="navbar-menu nav-items">
-                <a class="<?php echo $currentPage === 'home' ? 'active' : ''; ?> navbar-menu-link" href="<?= $homeUrl ?>">Home</a>
+                <a class="<?php echo $currentPage === 'home' ? 'active' : ''; ?> navbar-menu-link" href="/benmoradev/home.php">Home</a>
                 <!-- <a class="navbar-menu-link" href="/benistyping/projects.php">Projects</a> -->
                 <a class="<?php echo $currentPage === 'more_stuff' ? 'active' : ''; ?> navbar-menu-link" href="/benmoradev/more_stuff.php">More_Stuff</a>
             </nav>
