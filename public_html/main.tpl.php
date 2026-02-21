@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="<?= $description ?>" />
     <meta name="image" content="<?= $logoUrl ?>" />
-    <meta property="og:url" content="<?= $websiteUrl ?>" />
+    <meta property="og:url" content="www.benmora.dev" />
     <meta property="og:title" content="<?= $title ?>" />
     <meta property="og:description" content="<?= $description ?>" />
     <meta property="og:image" content="<?= $logoUrl ?>" />
@@ -24,13 +24,13 @@
     <link rel="apple-touch-icon" sizes="256x256" href="<?= $logoUrl ?>" />
     <link rel="apple-touch-icon" sizes="384x384" href="<?= $logoUrl ?>" />
     <link rel="apple-touch-icon" sizes="512x512" href="<?= $logoUrl ?>" />
-    <link href="/benmoradev/benstyle.css" rel="stylesheet" />
+    <link href="/src/style/benstyle.css" rel="stylesheet" />
 </head>
 <header>
     <div class="navbar">
         <div class="navbar-title">
            <div class="navbar-title-content">
-                <a href="/benmoradev/home.php" class="navbar-title-link">
+                <a href="/home.php" class="navbar-title-link">
                     <span class="navbar-title-text">
                         <!--viewBox="0 0 184 47"--> 
                         <svg class="ben-mora-dev-svg" role="img" viewBox="12 102 184 47" xmlns="http://www.w3.org/2000/svg" aria-label="benmora.dev logo">
@@ -187,12 +187,18 @@
         </div>
         <div class="navbar-container">
             <button class="navbar-hamburger-button" aria-label="Toggle navigation menu">
-                <span class="hamburger"></span>
+                <span class="navbar-hamburger">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </span>
             </button>
             <nav class="navbar-menu nav-items">
-                <a class="<?php echo $currentPage === 'home' ? 'active' : ''; ?> navbar-menu-link" href="/benmoradev/home.php">Home</a>
+                <a class="<?php echo $currentPage === 'home' ? 'active' : ''; ?> navbar-menu-link" href="/home.php">Home</a>
                 <!-- <a class="navbar-menu-link" href="/benistyping/projects.php">Projects</a> -->
-                <a class="<?php echo $currentPage === 'more_stuff' ? 'active' : ''; ?> navbar-menu-link" href="/benmoradev/more_stuff.php">More_Stuff</a>
+                <a class="<?php echo $currentPage === 'more_stuff' ? 'active' : ''; ?> navbar-menu-link" href="/more_stuff.php">More_Stuff</a>
             </nav>
             <nav class="navbar-menu social">
                 <a class="social-icon navbar-icon" href="https://github.com/bmora00" target="_blank" aria-label="github">

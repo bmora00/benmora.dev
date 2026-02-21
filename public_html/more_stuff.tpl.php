@@ -16,8 +16,8 @@
             <div>
                 <h2>Projects</h2>
                 <div class="projects-content-goes-here">
-                    <img class="projects-content-goes-here-img" src="/benmoradev/placeholder.svg" alt="Placeholder Image">
-                        <img class="pikachu-gif" src="/benmoradev/src/images/picachu.gif" alt="Pikachu Gif">
+                    <img class="projects-content-goes-here-img" src="/placeholder.svg" alt="Placeholder Image">
+                        <img class="pikachu-gif" src="/src/images/picachu.gif" alt="Pikachu Gif">
                     </img>
                 </div>
             </div>

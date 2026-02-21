@@ -1,7 +1,7 @@
 <div class="landing">
     <div class="landing-container">
         <div>
-            <img class="landing-svg" src="/benmoradev/ben-sig.svg" alt="benmora.dev logo">
+            <img class="landing-svg" src="/src/images/ben-sig.svg" alt="benmora.dev logo">
         </div>
         <div class="landing-content">
             <!-- <div class="landing-title">
@@ -13,7 +13,7 @@
                 </span>
             </div> -->
             <div class="landing-text">
-                <p class="landing-version-text"> Running <u>v1.0.0</u> </p>
+                <p class="landing-version-text"> Running <u>v1.0.1</u> </p>
                 <p>
                     Welcome to my site. This is where I put hobby projects and stuff I have completed. So far I have only made this website :D. 
                     
@@ -55,7 +55,7 @@
     <main class="main-container">
         <div class="about-container main-content">
             <div>
-                <img class="about-image-top" src="/benmoradev/mountain-landing.png" alt="Mountain Landscape">
+                <img class="about-image-top" src="/src/images/mountain-landing.png" alt="Mountain Landscape">
             </div>
             <div class="about-content-container">
                 <div class ="about-image-left">
@@ -64,7 +64,7 @@
                 <div class="about-content">
                     <h2 id="about-me">About Me</h2>
                     <p>
-                        <img class="about-image" src="/benmoradev/ben-pic-2.jpg" alt="Picture of Ben Mora">
+                        <img class="about-image" src="/src/images/ben-pic-2.jpg" alt="Picture of Ben Mora">
                         Hi &#128075 I'm Ben, a 26-year old developer and coding enthusist. 
                     </p>
                     <p>
