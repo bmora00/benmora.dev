@@ -187,7 +187,13 @@
         </div>
         <div class="navbar-container">
             <button class="navbar-hamburger-button" aria-label="Toggle navigation menu">
-                <span class="hamburger"></span>
+                <span class="navbar-hamburger">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </span>
             </button>
             <nav class="navbar-menu nav-items">
                 <a class="<?php echo $currentPage === 'home' ? 'active' : ''; ?> navbar-menu-link" href="/home.php">Home</a>
